@@ -1,0 +1,34 @@
+body { 
+    padding: 1px 200px;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+.headline{
+    font-family: Georgia;
+    text-align: center;
+}
+
+.paragraph{
+    line-height: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover { 
+    text-decoration: underline; 
+    }
+
+#p4{
+    text-transform: uppercase;
+}
+
+img{
+    float:left;
+    width:260px;
+    height:160px;
+}
+

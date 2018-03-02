@@ -1,0 +1,24 @@
+h2{
+    text-align: center;
+}
+
+
+#section1{
+    border: 3px dotted red;
+}
+
+img{
+    border: 2px solid blue;
+    height: 300px;
+    width: 100%;
+}
+
+.c1{
+    color:red;
+    text-decoration: underline;
+}
+
+#ucl{
+    font-weight: bold;
+    color: #54bbc4;
+}

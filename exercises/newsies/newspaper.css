@@ -1,5 +1,13 @@
+body{
+    background-image: url("img11.jpg")
+}
+
+
 h2{
     text-align: center;
+    font-weight: bolder;
+    font-style:italic;
+    font-size: 40px
 }
 
 
@@ -23,12 +31,11 @@ img{
     color: #54bbc4;
 }
 
-#para1{
-    float:left;
+p {
+    column-count: 3;
 }
-#para2{
-    float:middle;
-}
-#para3{
-    float: right;
+
+.c3{
+    color: #e433d5;
+
 }

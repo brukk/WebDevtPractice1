@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box; 
+    font-size: 0;
+    margin:0;
+}
+
+.whole{
+    background-color:white;
+    height:600px;
+    border:4px solid black;
+}
+
+.first{
+    background-color:#F5C6D6;
+    height:25%
+}
+
+.darkpink{
+    background-color:#EE2E84;
+    height:25%;
+}

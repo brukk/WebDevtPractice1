@@ -3,14 +3,14 @@ function adding(x,y){
 }
 adding()
 
-
+//*******************************
  var largeN =function(x,y,z){
      
      return Math.max(x,y,z);
  }
  console.log(largeN(4,6,7))
 
-
+//***************************** 
 
  var evenN = function(n) {
      if (n % 2 === 0){

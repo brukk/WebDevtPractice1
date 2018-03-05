@@ -35,7 +35,8 @@ for (var i = 0; i < fruit.length; i += 2) {
 console.log(pushedFruits);
 
 //************************************* 
-
+var pushedName=[];
+var totalNames=peopleArray.name.length;
 var peopleArray = [
     {
         name: "Harrison Ford",
@@ -54,9 +55,8 @@ var peopleArray = [
         occupation: "Entertainer"
     }
 ]
-
-for(var i=0 ; i < name.length; i++){
-    console.log(peopleArray.name[i]);
+for(var i=0 ; i < totalNames; i++){
+    pushedName.push((peopleArray[i].name[i].name))
 }
-
+console.log(pushedName)
 

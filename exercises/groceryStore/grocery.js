@@ -3,7 +3,7 @@ var shopper={
     shoeSize:10,
     married:true,
     appearance: function(){
-        return this.dress + "" + this.shoeSize;
+        return "the shoppers dress is made of"+this.dress + "has a size of" + this.shoeSize
     },
     groceryCart:["tommato","meat","vegi"]
 }

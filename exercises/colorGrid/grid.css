@@ -1,37 +1,54 @@
 * {
-    box-sizing: border-box; 
+    margin: 0;
+    box-sizing: border-box;
     font-size: 0;
 }
 
-
-.first{
-    display:inline-block;
-    
-    height:25%;
-    width:100%;
-    background-color:#F5C6D6;
-    border: 2px solid white;
+body{
+    height: 100vh;
+    position: relative;
+}
+.wrapper {
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
 }
 
- .darkpink{
-    
-    
-    border: 2px solid white;
-    background-color: #EE2E84;
+.box{
+    height: 50px;
 }
-/*************
-.floating-box {
+
+.col {
+    height: 100%;
     display: inline-block;
-    width: 150px;
-    height: 75px;
-    margin: 10px;
-    border: 3px solid #73AD21;  
-    background-color:red;
+    border: 3px solid white;
 }
 
-.after-box {
-    border: 3px solid red; 
-    background-color:green;
+.pink {
+    background-color:#f5c6d6;
+    width: 100%;
+}
+
+.red {
+    background-color: #ee2e84;
+    width: 25%;
+}
+
+.skyblue {
+    background-color:#85cfd8;
+    width: 50%;
+}
+
+.green {
+    background-color:#8dc63f;
+    width: 75%;
+}
+
+.orange {
+    background-color:#e76e34;
+    width: 25%;
 }
 
 

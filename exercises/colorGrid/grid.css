@@ -6,9 +6,10 @@
 
 body{
     height: 100vh;
+    
     position: relative;
 }
-.wrapper {
+.bigBox {
     position: absolute;
     width: 80%;
     top: 50%;
@@ -16,7 +17,7 @@ body{
     transform: translateY(-50%) translateX(-50%);
 }
 
-.box{
+.box {
     height: 50px;
 }
 
@@ -27,28 +28,26 @@ body{
 }
 
 .pink {
-    background-color:#f5c6d6;
+    background-color: #F5C6D6;
     width: 100%;
 }
 
 .red {
-    background-color: #ee2e84;
+    background-color: #EE2E84;
     width: 25%;
 }
 
-.skyblue {
-    background-color:#85cfd8;
+.skyBlue {
+    background-color: #85CFD8;
     width: 50%;
 }
 
 .green {
-    background-color:#8dc63f;
+    background-color: #8DC63F;
     width: 75%;
 }
 
 .orange {
-    background-color:#e76e34;
+    background-color:#E76E34;
     width: 25%;
 }
-
-

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.wrapper{
+    position:relative;
+    height:400px;
+    width:700px;
+    border:1px solid black;
+    top:100px;
+    background-color:red;
+}
+
+.green{
+    background-color:green;
+    position: absolute;
+    height:60%;
+    width:70%;
+    top:20%;
+    left:14%;
+}
+
+.white {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    box-shadow: -16px 0px 0px 10px white;
+    top:40%;
+    left:44%
+  }

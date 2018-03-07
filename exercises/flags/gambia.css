@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.wrapper{
+    position:relative;
+    height:400px;
+    width:700px;
+    border:1px solid black;
+    top:100px;
+}
+
+.red{
+    position: absolute;
+    background-color:red;
+    height: 33.33%;
+    width:100%;
+}
+
+.blue{
+    position: absolute;
+    background-color:blue;
+    height:22%;
+    width:100%;
+    top:39%
+}
+
+.green{
+    position: absolute;
+    background-color:green;;
+    height: 33.33%;
+    width:100%;
+    bottom:0;
+}

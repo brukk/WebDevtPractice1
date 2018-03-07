@@ -1,0 +1,39 @@
+body{
+    padding:40px 100px;
+    position: relative;
+}
+.wrapper{
+    position:relative;
+    height:40%;
+    width:40%;
+    border:1px solid black;
+    padding: 300px 100px
+}
+
+.blue{
+    position:absolute;
+    top:0%;
+    left:0%;
+    background-color:blue;
+    height: 100%;
+    width:33.33%;
+}
+
+white{
+    position: absolute;
+    top:0%;
+    left:33.33%;
+    background-color:white;
+    height: 100%;
+    width:33.33%;
+    border:1px solid black
+}
+
+.red{
+    position: absolute;
+    top:0%;
+    left:66.66%;
+    background-color:red;
+    height: 100%;
+    width:33.33%;
+}

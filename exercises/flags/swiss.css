@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.wrapper{
+    position:relative;
+    height:700px;
+    width:700px;
+    border:1px solid black;
+    top:100px;
+    
+    background-color:red;
+}
+
+.white1{
+    background-color:white;
+    position:absolute;
+    height:66%;
+    width:16%;
+    top:17%;
+    left:38%;
+}
+
+.white-{
+    background-color:white;
+    position:absolute;
+    height:16%;
+    width:66%;
+    bottom:42%;
+    right:20%;
+}

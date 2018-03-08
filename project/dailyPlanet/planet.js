@@ -3,21 +3,21 @@
 var enemies=["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
 
 function who_Wins(is_there_kryptonite,enemy_name){
-if (!is_there_kryptonite){
-    return "Superman beats " + enemies[i] + ", of course";
-}else{
-    return "Depends on how quick Superman can get rid of the Kryptonite. "+ enemies[i] +" could possibly win this one.";
-}
+    if (!is_there_kryptonite){
+        return "Superman beats " + enemies[i] + ", of course";
+    }else{
+        return "Depends on how quick Superman can get rid of the Kryptonite. "+ enemies[i] + " could possibly win this one.";
+    }
 }
 
 
 for (var i=0;i<enemies.length;i++){
     var is_there_kryptonite=0
-if (i%2=== 0) {
+    if (i%2=== 0) {
         is_there_kryptonite = true;
-} else {
+    } else {
         is_there_kryptonite = false;
-}
+    }
     console.log(who_Wins(is_there_kryptonite,enemies[i]));
 }
 

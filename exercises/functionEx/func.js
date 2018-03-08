@@ -1,7 +1,7 @@
-function adding(x,y){
-    return 2+4;
+function adding(){
+    return 2+3
 }
-adding()
+console.log(adding())
 
 //*******************************
  var largeN =function(x,y,z){
@@ -12,12 +12,31 @@ adding()
 
 //***************************** 
 
- var evenN = function(n) {
-     if (n % 2 === 0){
-  console.log("even") 
- }
- console.log("odd") 
+function evenOdd(x){
+    if(x%2===0){
+        return "even"
+    }else if(x%2===1){
+        return "odd"
+    }
 }
-evenN(9);
+console.log(evenOdd(9))
+
+//******************************
+
+
+function str(){
+    var concStr=""
+    for(var i=0; i<concStr.length; i++){
+        concStr.push(i)
+       if(concStr.length<=20){
+           return concStr.conc(concStr)
+       }else if(concStr.length>20){
+           return concStr.slice(0,conStr.length/2)
+       }
+    }
+}
+console.log(str())
+
+//************************************
 
 

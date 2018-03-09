@@ -25,7 +25,7 @@ console.log(evenOdd(9))
 
 
 function str(){
-    var concStr=""
+    var concStr=("")
     for(var i=0; i<concStr.length; i++){
         concStr.push(i)
        if(concStr.length<=20){

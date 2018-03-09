@@ -1,0 +1,27 @@
+
+.parent {
+    border:1px solid green;
+    display: flex;
+    flex-direction:row;
+    height:500px;
+    
+    
+}
+
+.child {
+        width: 100px;
+        height: 100px;
+        background-color: lightcoral;
+        border: 9px solid black;
+        flex-grow:3;
+        flex-shrink: 1;
+        flex-wrap: wrap;
+        
+    }
+        
+
+.one-off{
+    align-self:bottom;
+    flex-grow:1;
+    flex-shrink: 2;
+}
